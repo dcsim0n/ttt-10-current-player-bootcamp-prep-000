@@ -3,7 +3,7 @@ def turn_count(board)
   turns = 0 
   board.each do | square |
     if square != " "
-      turns += 
+      turns += 1
     end
   end
   return turns
